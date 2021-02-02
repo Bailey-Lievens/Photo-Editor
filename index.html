@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo editor</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+    <h1>&lt;Photo editor&gt;</h1>
+
+    <div id="full_image_container">
+        <div id="file_input_box">
+            <h2 class="add_image">&lt;img <span class="src_image">src</span><span class="equals_image">=</span></h2>
+
+            <input type="file" name="file" id="file" class="input_file" accept="image/png, image/jpeg"/>
+            <label class="quotes_image" for="file">"No file selected"</label>
+
+            <h2 class="add_image">&gt;</h2>
+        </div>
+
+        <div id="image_box">
+            <img class="uploaded_image">
+        </div>
+    </div>
+
+    <h1>&lt;/Photo editor&gt;</h1>
+
+
+    <script src="js/index.js"></script>
+</body>
+</html>
